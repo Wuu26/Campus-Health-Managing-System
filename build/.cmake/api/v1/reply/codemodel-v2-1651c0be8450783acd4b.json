@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QtTeamApp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "QtTeamApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QtTeamApp-Debug-be993fe2ce4104c0c154.json",
+					"name" : "QtTeamApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QtTeamApp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QtTeamApp_autogen-Debug-675b1c3fb7b0cc61af49.json",
+					"name" : "QtTeamApp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QtTeamApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QtTeamApp_autogen_timestamp_deps-Debug-476bb38e97bb7a942e24.json",
+					"name" : "QtTeamApp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build",
+		"source" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+aa8e3a0d54fd96c26965a95364f4cffe CMakeFiles/QtTeamApp_autogen
+fed71ec24863513e8c84a134e297f1a4 QtTeamApp_autogen/timestamp

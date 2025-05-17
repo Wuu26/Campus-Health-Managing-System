@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/QtTeamApp_autogen/include -isystem /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/wu/Qt/6.9.0/macos/lib -isystem /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Headers -isystem /Users/wu/Qt/6.9.0/macos/mkspecs/macx-clang -isystem /Users/wu/Qt/6.9.0/macos/include -isystem /Users/wu/Qt/6.9.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/QtTeamApp.dir/QtTeamApp_autogen/mocs_compilation.cpp.o -c /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/QtTeamApp_autogen/mocs_compilation.cpp",
+  "file": "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/QtTeamApp_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/QtTeamApp.dir/QtTeamApp_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/QtTeamApp_autogen/include -isystem /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/wu/Qt/6.9.0/macos/lib -isystem /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Headers -isystem /Users/wu/Qt/6.9.0/macos/mkspecs/macx-clang -isystem /Users/wu/Qt/6.9.0/macos/include -isystem /Users/wu/Qt/6.9.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/QtTeamApp.dir/src/main.cpp.o -c /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/main.cpp",
+  "file": "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/main.cpp",
+  "output": "CMakeFiles/QtTeamApp.dir/src/main.cpp.o"
+}
+]
