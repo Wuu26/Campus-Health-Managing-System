@@ -1,0 +1,7 @@
+{
+  "cmake.configureSettings": {
+    "CMAKE_PREFIX_PATH": "/Users/wu/Qt/6.9.0/macos"
+  },
+  "cmake.sourceDirectory": "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system",
+  "cmake.buildDirectory": "${workspaceFolder}/build"
+}
