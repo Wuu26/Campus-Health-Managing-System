@@ -26,8 +26,8 @@ CMAKE_BUILD_TYPE:STRING=Debug
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//CXX compiler
-CMAKE_CXX_COMPILER:STRING=/usr/bin/clang++
+//No help, variable specified on the command line.
+CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/clang++
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -181,22 +181,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=QtTeamApp
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=1.0
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_MAJOR:STATIC=1
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=0
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_TWEAK:STATIC=
+CMAKE_PROJECT_NAME:STATIC=CampusHealth
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -263,6 +248,15 @@ CMAKE_TAPI:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeD
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Value Computed by CMake
+CampusHealth_BINARY_DIR:STATIC=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build
+
+//Value Computed by CMake
+CampusHealth_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+CampusHealth_SOURCE_DIR:STATIC=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system
+
 //Path to a program.
 MACDEPLOYQT_EXECUTABLE:FILEPATH=/Users/wu/Qt/6.9.0/macos/bin/macdeployqt
 
@@ -323,15 +317,6 @@ Qt6Widgets_DIR:PATH=/Users/wu/Qt/6.9.0/macos/lib/cmake/Qt6Widgets
 
 //The directory containing a CMake configuration file for Qt6.
 Qt6_DIR:PATH=/Users/wu/Qt/6.9.0/macos/lib/cmake/Qt6
-
-//Value Computed by CMake
-QtTeamApp_BINARY_DIR:STATIC=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build
-
-//Value Computed by CMake
-QtTeamApp_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-QtTeamApp_SOURCE_DIR:STATIC=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system
 
 //Path to a library.
 WrapOpenGL_AGL:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AGL.framework

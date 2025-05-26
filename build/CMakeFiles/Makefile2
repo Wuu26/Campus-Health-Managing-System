@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /Users/wu/Documents/VScode/QtProjects/campus-health-managing-
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/QtTeamApp.dir/all
+all: CMakeFiles/CampusHealth.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/QtTeamApp.dir/codegen
+codegen: CMakeFiles/CampusHealth.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,107 +75,108 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/QtTeamApp.dir/clean
-clean: CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/QtTeamApp_autogen.dir/clean
+clean: CMakeFiles/CampusHealth.dir/clean
+clean: CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/CampusHealth_autogen.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/QtTeamApp.dir
+# Target rules for target CMakeFiles/CampusHealth.dir
 
 # All Build rule for target.
-CMakeFiles/QtTeamApp.dir/all: CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/all
-CMakeFiles/QtTeamApp.dir/all: CMakeFiles/QtTeamApp_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp.dir/build.make CMakeFiles/QtTeamApp.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp.dir/build.make CMakeFiles/QtTeamApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles --progress-num=1,2,3,4 "Built target QtTeamApp"
-.PHONY : CMakeFiles/QtTeamApp.dir/all
+CMakeFiles/CampusHealth.dir/all: CMakeFiles/CampusHealth_autogen.dir/all
+CMakeFiles/CampusHealth.dir/all: CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth.dir/build.make CMakeFiles/CampusHealth.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth.dir/build.make CMakeFiles/CampusHealth.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target CampusHealth"
+.PHONY : CMakeFiles/CampusHealth.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/QtTeamApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/QtTeamApp.dir/all
+CMakeFiles/CampusHealth.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CampusHealth.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles 0
-.PHONY : CMakeFiles/QtTeamApp.dir/rule
+.PHONY : CMakeFiles/CampusHealth.dir/rule
 
 # Convenience name for target.
-QtTeamApp: CMakeFiles/QtTeamApp.dir/rule
-.PHONY : QtTeamApp
+CampusHealth: CMakeFiles/CampusHealth.dir/rule
+.PHONY : CampusHealth
 
 # codegen rule for target.
-CMakeFiles/QtTeamApp.dir/codegen: CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp.dir/build.make CMakeFiles/QtTeamApp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target QtTeamApp"
-.PHONY : CMakeFiles/QtTeamApp.dir/codegen
+CMakeFiles/CampusHealth.dir/codegen: CMakeFiles/CampusHealth_autogen.dir/all
+CMakeFiles/CampusHealth.dir/codegen: CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth.dir/build.make CMakeFiles/CampusHealth.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target CampusHealth"
+.PHONY : CMakeFiles/CampusHealth.dir/codegen
 
 # clean rule for target.
-CMakeFiles/QtTeamApp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp.dir/build.make CMakeFiles/QtTeamApp.dir/clean
-.PHONY : CMakeFiles/QtTeamApp.dir/clean
+CMakeFiles/CampusHealth.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth.dir/build.make CMakeFiles/CampusHealth.dir/clean
+.PHONY : CMakeFiles/CampusHealth.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir
+# Target rules for target CMakeFiles/CampusHealth_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/build.make CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/build.make CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles --progress-num= "Built target QtTeamApp_autogen_timestamp_deps"
-.PHONY : CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/all
+CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/build.make CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/build.make CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles --progress-num= "Built target CampusHealth_autogen_timestamp_deps"
+.PHONY : CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles 0
-.PHONY : CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/rule
+.PHONY : CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-QtTeamApp_autogen_timestamp_deps: CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/rule
-.PHONY : QtTeamApp_autogen_timestamp_deps
+CampusHealth_autogen_timestamp_deps: CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/rule
+.PHONY : CampusHealth_autogen_timestamp_deps
 
 # codegen rule for target.
-CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/build.make CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles --progress-num= "Finished codegen for target QtTeamApp_autogen_timestamp_deps"
-.PHONY : CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/codegen
+CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/build.make CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles --progress-num= "Finished codegen for target CampusHealth_autogen_timestamp_deps"
+.PHONY : CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/codegen
 
 # clean rule for target.
-CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/build.make CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/clean
+CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/build.make CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/QtTeamApp_autogen.dir
+# Target rules for target CMakeFiles/CampusHealth_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/QtTeamApp_autogen.dir/all: CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp_autogen.dir/build.make CMakeFiles/QtTeamApp_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp_autogen.dir/build.make CMakeFiles/QtTeamApp_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles --progress-num=5 "Built target QtTeamApp_autogen"
-.PHONY : CMakeFiles/QtTeamApp_autogen.dir/all
+CMakeFiles/CampusHealth_autogen.dir/all: CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth_autogen.dir/build.make CMakeFiles/CampusHealth_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth_autogen.dir/build.make CMakeFiles/CampusHealth_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles --progress-num=7 "Built target CampusHealth_autogen"
+.PHONY : CMakeFiles/CampusHealth_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/QtTeamApp_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/CampusHealth_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/QtTeamApp_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CampusHealth_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles 0
-.PHONY : CMakeFiles/QtTeamApp_autogen.dir/rule
+.PHONY : CMakeFiles/CampusHealth_autogen.dir/rule
 
 # Convenience name for target.
-QtTeamApp_autogen: CMakeFiles/QtTeamApp_autogen.dir/rule
-.PHONY : QtTeamApp_autogen
+CampusHealth_autogen: CMakeFiles/CampusHealth_autogen.dir/rule
+.PHONY : CampusHealth_autogen
 
 # codegen rule for target.
-CMakeFiles/QtTeamApp_autogen.dir/codegen: CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp_autogen.dir/build.make CMakeFiles/QtTeamApp_autogen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles --progress-num=5 "Finished codegen for target QtTeamApp_autogen"
-.PHONY : CMakeFiles/QtTeamApp_autogen.dir/codegen
+CMakeFiles/CampusHealth_autogen.dir/codegen: CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth_autogen.dir/build.make CMakeFiles/CampusHealth_autogen.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles --progress-num=7 "Finished codegen for target CampusHealth_autogen"
+.PHONY : CMakeFiles/CampusHealth_autogen.dir/codegen
 
 # clean rule for target.
-CMakeFiles/QtTeamApp_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp_autogen.dir/build.make CMakeFiles/QtTeamApp_autogen.dir/clean
-.PHONY : CMakeFiles/QtTeamApp_autogen.dir/clean
+CMakeFiles/CampusHealth_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth_autogen.dir/build.make CMakeFiles/CampusHealth_autogen.dir/clean
+.PHONY : CMakeFiles/CampusHealth_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

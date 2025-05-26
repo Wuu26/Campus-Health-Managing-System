@@ -1,5 +1,5 @@
-/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles/QtTeamApp.dir
+/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles/CampusHealth.dir
 /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles/edit_cache.dir
 /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles/rebuild_cache.dir
-/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir
-/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles/QtTeamApp_autogen.dir
+/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles/CampusHealth_autogen_timestamp_deps.dir
+/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles/CampusHealth_autogen.dir

@@ -117,74 +117,98 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named QtTeamApp
+# Target rules for targets named CampusHealth
 
 # Build rule for target.
-QtTeamApp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QtTeamApp
-.PHONY : QtTeamApp
+CampusHealth: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CampusHealth
+.PHONY : CampusHealth
 
 # fast build rule for target.
-QtTeamApp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp.dir/build.make CMakeFiles/QtTeamApp.dir/build
-.PHONY : QtTeamApp/fast
+CampusHealth/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth.dir/build.make CMakeFiles/CampusHealth.dir/build
+.PHONY : CampusHealth/fast
 
 #=============================================================================
-# Target rules for targets named QtTeamApp_autogen_timestamp_deps
+# Target rules for targets named CampusHealth_autogen_timestamp_deps
 
 # Build rule for target.
-QtTeamApp_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QtTeamApp_autogen_timestamp_deps
-.PHONY : QtTeamApp_autogen_timestamp_deps
+CampusHealth_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CampusHealth_autogen_timestamp_deps
+.PHONY : CampusHealth_autogen_timestamp_deps
 
 # fast build rule for target.
-QtTeamApp_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/build.make CMakeFiles/QtTeamApp_autogen_timestamp_deps.dir/build
-.PHONY : QtTeamApp_autogen_timestamp_deps/fast
+CampusHealth_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/build.make CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/build
+.PHONY : CampusHealth_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named QtTeamApp_autogen
+# Target rules for targets named CampusHealth_autogen
 
 # Build rule for target.
-QtTeamApp_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QtTeamApp_autogen
-.PHONY : QtTeamApp_autogen
+CampusHealth_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CampusHealth_autogen
+.PHONY : CampusHealth_autogen
 
 # fast build rule for target.
-QtTeamApp_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp_autogen.dir/build.make CMakeFiles/QtTeamApp_autogen.dir/build
-.PHONY : QtTeamApp_autogen/fast
+CampusHealth_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth_autogen.dir/build.make CMakeFiles/CampusHealth_autogen.dir/build
+.PHONY : CampusHealth_autogen/fast
 
-QtTeamApp_autogen/mocs_compilation.o: QtTeamApp_autogen/mocs_compilation.cpp.o
-.PHONY : QtTeamApp_autogen/mocs_compilation.o
+CampusHealth_autogen/mocs_compilation.o: CampusHealth_autogen/mocs_compilation.cpp.o
+.PHONY : CampusHealth_autogen/mocs_compilation.o
 
 # target to build an object file
-QtTeamApp_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp.dir/build.make CMakeFiles/QtTeamApp.dir/QtTeamApp_autogen/mocs_compilation.cpp.o
-.PHONY : QtTeamApp_autogen/mocs_compilation.cpp.o
+CampusHealth_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth.dir/build.make CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.o
+.PHONY : CampusHealth_autogen/mocs_compilation.cpp.o
 
-QtTeamApp_autogen/mocs_compilation.i: QtTeamApp_autogen/mocs_compilation.cpp.i
-.PHONY : QtTeamApp_autogen/mocs_compilation.i
+CampusHealth_autogen/mocs_compilation.i: CampusHealth_autogen/mocs_compilation.cpp.i
+.PHONY : CampusHealth_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-QtTeamApp_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp.dir/build.make CMakeFiles/QtTeamApp.dir/QtTeamApp_autogen/mocs_compilation.cpp.i
-.PHONY : QtTeamApp_autogen/mocs_compilation.cpp.i
+CampusHealth_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth.dir/build.make CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.i
+.PHONY : CampusHealth_autogen/mocs_compilation.cpp.i
 
-QtTeamApp_autogen/mocs_compilation.s: QtTeamApp_autogen/mocs_compilation.cpp.s
-.PHONY : QtTeamApp_autogen/mocs_compilation.s
+CampusHealth_autogen/mocs_compilation.s: CampusHealth_autogen/mocs_compilation.cpp.s
+.PHONY : CampusHealth_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-QtTeamApp_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp.dir/build.make CMakeFiles/QtTeamApp.dir/QtTeamApp_autogen/mocs_compilation.cpp.s
-.PHONY : QtTeamApp_autogen/mocs_compilation.cpp.s
+CampusHealth_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth.dir/build.make CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.s
+.PHONY : CampusHealth_autogen/mocs_compilation.cpp.s
+
+src/interfaces.o: src/interfaces.cpp.o
+.PHONY : src/interfaces.o
+
+# target to build an object file
+src/interfaces.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth.dir/build.make CMakeFiles/CampusHealth.dir/src/interfaces.cpp.o
+.PHONY : src/interfaces.cpp.o
+
+src/interfaces.i: src/interfaces.cpp.i
+.PHONY : src/interfaces.i
+
+# target to preprocess a source file
+src/interfaces.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth.dir/build.make CMakeFiles/CampusHealth.dir/src/interfaces.cpp.i
+.PHONY : src/interfaces.cpp.i
+
+src/interfaces.s: src/interfaces.cpp.s
+.PHONY : src/interfaces.s
+
+# target to generate assembly for a file
+src/interfaces.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth.dir/build.make CMakeFiles/CampusHealth.dir/src/interfaces.cpp.s
+.PHONY : src/interfaces.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp.dir/build.make CMakeFiles/QtTeamApp.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth.dir/build.make CMakeFiles/CampusHealth.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -192,7 +216,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp.dir/build.make CMakeFiles/QtTeamApp.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth.dir/build.make CMakeFiles/CampusHealth.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -200,8 +224,32 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTeamApp.dir/build.make CMakeFiles/QtTeamApp.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth.dir/build.make CMakeFiles/CampusHealth.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/mainwindow.o: src/mainwindow.cpp.o
+.PHONY : src/mainwindow.o
+
+# target to build an object file
+src/mainwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth.dir/build.make CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o
+.PHONY : src/mainwindow.cpp.o
+
+src/mainwindow.i: src/mainwindow.cpp.i
+.PHONY : src/mainwindow.i
+
+# target to preprocess a source file
+src/mainwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth.dir/build.make CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.i
+.PHONY : src/mainwindow.cpp.i
+
+src/mainwindow.s: src/mainwindow.cpp.s
+.PHONY : src/mainwindow.s
+
+# target to generate assembly for a file
+src/mainwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CampusHealth.dir/build.make CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.s
+.PHONY : src/mainwindow.cpp.s
 
 # Help Target
 help:
@@ -211,15 +259,21 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... QtTeamApp_autogen"
-	@echo "... QtTeamApp_autogen_timestamp_deps"
-	@echo "... QtTeamApp"
-	@echo "... QtTeamApp_autogen/mocs_compilation.o"
-	@echo "... QtTeamApp_autogen/mocs_compilation.i"
-	@echo "... QtTeamApp_autogen/mocs_compilation.s"
+	@echo "... CampusHealth_autogen"
+	@echo "... CampusHealth_autogen_timestamp_deps"
+	@echo "... CampusHealth"
+	@echo "... CampusHealth_autogen/mocs_compilation.o"
+	@echo "... CampusHealth_autogen/mocs_compilation.i"
+	@echo "... CampusHealth_autogen/mocs_compilation.s"
+	@echo "... src/interfaces.o"
+	@echo "... src/interfaces.i"
+	@echo "... src/interfaces.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/mainwindow.o"
+	@echo "... src/mainwindow.i"
+	@echo "... src/mainwindow.s"
 .PHONY : help
 
 

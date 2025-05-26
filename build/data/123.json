@@ -1,0 +1,13 @@
+{
+    "age": 18,
+    "dietType": "荤食",
+    "freeTimes": [
+        "1-2节课",
+        "3-4节课"
+    ],
+    "goal": "健康",
+    "height": 180,
+    "name": "小明",
+    "studentId": "123",
+    "weight": 80
+}
