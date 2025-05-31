@@ -1,6 +1,8 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "interfaces.h"
+#include "cafeteriamenu.h"
+#include <QListWidget>
 #include <QMessageBox>
 #include <QDebug>              // 可选，用于调试
 
@@ -15,6 +17,14 @@ MainWindow::MainWindow(QWidget *parent)
     // 连接按钮
     connect(ui->generateButton, &QPushButton::clicked, this, &MainWindow::on_generateButton_clicked);
     connect(ui->submitButton, &QPushButton::clicked, this, &MainWindow::on_submitButton_clicked);
+
+    //添加显示食堂菜单的逻辑
+    CafeteriaMenu menu;
+    QStringList menuItems = menu.getMenu();
+
+    QListWidget *listWidget = new QListWidget(this);
+    listWidget->addItems(menuItems);
+    setCentralWidget(listWidget);
 }
 
 MainWindow::~MainWindow() {
