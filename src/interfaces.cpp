@@ -5,6 +5,11 @@
 #include <QJsonArray>
 #include <QDir>
 #include <QCoreApplication>
+#include <QTextStream>
+#include <QDebug>
+#include <QCoreApplication>
+#include <QStandardPaths>
+#include <QFileInfo>
 
 QStringList generateWorkoutPlan(const UserProfile &user) {
     float bmi = user.calculateBMI();
