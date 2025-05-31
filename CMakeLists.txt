@@ -16,6 +16,12 @@ add_executable(CampusHealth
     src/mainwindow.cpp
     src/interfaces.cpp       # ✅ 包含逻辑函数实现
     src/mainwindow.ui
+    src/main.cpp
+    src/mainwindow.cpp
+    src/interfaces.cpp
+    src/datamanager.cpp
+    src/userdietmanager.cpp
+    src/cafeteriamenu.cpp
 )
 
 target_link_libraries(CampusHealth PRIVATE Qt6::Widgets)
