@@ -10,7 +10,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 
     // 默认显示欢迎页（第一页）
-    ui->tabWidget->setCurrentIndex(0);
+    ui->stackedWidget->setCurrentIndex(0);
 
     // 连接按钮
     connect(ui->generateButton, &QPushButton::clicked, this, &MainWindow::on_generateButton_clicked);
@@ -49,7 +49,7 @@ void MainWindow::on_generateButton_clicked() {
         }
     }
 
-    ui->tabWidget->setCurrentIndex(1); // 跳转到信息填写页
+    ui->stackedWidget->setCurrentIndex(1); // 跳转到信息填写页
 }
 
 void MainWindow::on_submitButton_clicked() {
@@ -77,5 +77,5 @@ void MainWindow::on_submitButton_clicked() {
     ui->workoutResult->setText(workout.join("\n"));
     ui->mealResult->setText(meals.join("\n"));
 
-    ui->tabWidget->setCurrentIndex(2); // 切换到结果页
+    ui->stackedWidget->setCurrentIndex(2); // 切换到结果页
 }

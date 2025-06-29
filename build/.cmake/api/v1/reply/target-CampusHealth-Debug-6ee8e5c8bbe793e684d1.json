@@ -220,11 +220,11 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CampusHealth_autogen/include"
+					"path" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CampusHealth_autogen/include"
 				},
 				{
 					"backtrace" : 25,
-					"path" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src"
+					"path" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src"
 				},
 				{
 					"backtrace" : 2,
@@ -274,11 +274,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "CampusHealth_autogen::@6890427a1f51a3e7e1df"
+			"id" : "CampusHealth_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "CampusHealth_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "CampusHealth_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "CampusHealth::@6890427a1f51a3e7e1df",

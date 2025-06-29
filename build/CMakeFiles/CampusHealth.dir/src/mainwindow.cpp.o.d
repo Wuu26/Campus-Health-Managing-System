@@ -1,6 +1,6 @@
 CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o: \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/mainwindow.cpp \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/mainwindow.h \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/mainwindow.cpp \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/mainwindow.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QMainWindow \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -970,9 +970,9 @@ CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o: \
   /Users/wu/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qbitmap.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QString \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/interfaces.h \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/interfaces.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QStringList \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CampusHealth_autogen/include/ui_mainwindow.h \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CampusHealth_autogen/include/ui_mainwindow.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QVariant \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qapplication.h \
@@ -1003,13 +1003,6 @@ CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o: \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qrubberband.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qframe.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qabstractitemmodel.h \
-  /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QFormLayout \
-  /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qformlayout.h \
-  /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QLayout \
-  /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qlayout.h \
-  /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qlayoutitem.h \
-  /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qboxlayout.h \
-  /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QLabel \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qlabel.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qpicture.h \
@@ -1031,9 +1024,15 @@ CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o: \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QPushButton \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
-  /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QTabWidget \
+  /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QStackedWidget \
+  /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qstackedwidget.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QTextEdit \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtextedit.h \
+  /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QVBoxLayout \
+  /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qboxlayout.h \
+  /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qlayout.h \
+  /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qlayoutitem.h \
+  /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QWidget \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QMessageBox \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \

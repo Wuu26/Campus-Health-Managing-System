@@ -1,7 +1,7 @@
 CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.o: \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CampusHealth_autogen/mocs_compilation.cpp \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CampusHealth_autogen/UVLADIE3JM/moc_mainwindow.cpp \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CampusHealth_autogen/UVLADIE3JM/../../../src/mainwindow.h \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CampusHealth_autogen/mocs_compilation.cpp \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CampusHealth_autogen/UVLADIE3JM/moc_mainwindow.cpp \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CampusHealth_autogen/UVLADIE3JM/../../../src/mainwindow.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QMainWindow \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -971,7 +971,7 @@ CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.o: \
   /Users/wu/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qbitmap.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QString \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CampusHealth_autogen/UVLADIE3JM/../../../src/interfaces.h \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CampusHealth_autogen/UVLADIE3JM/../../../src/interfaces.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QStringList \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qtmochelpers.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qtmocconstants.h \

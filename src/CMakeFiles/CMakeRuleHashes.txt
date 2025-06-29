@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+8d464b85317d41478e41c40636487b1a CMakeFiles/CampusHealth_autogen
+b9c2f6d0ee264a6ad343d8f5039c8f8e CampusHealth_autogen/timestamp

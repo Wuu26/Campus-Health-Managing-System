@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system
+CMAKE_SOURCE_DIR = /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build
+CMAKE_BINARY_DIR = /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CampusHealth.dir/depend.make
@@ -72,9 +72,9 @@ include CMakeFiles/CampusHealth.dir/flags.make
 CampusHealth_autogen/timestamp: /Users/wu/Qt/6.9.0/macos/libexec/moc
 CampusHealth_autogen/timestamp: /Users/wu/Qt/6.9.0/macos/libexec/uic
 CampusHealth_autogen/timestamp: CMakeFiles/CampusHealth.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target CampusHealth"
-	/opt/homebrew/bin/cmake -E cmake_autogen /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles/CampusHealth_autogen.dir/AutogenInfo.json Debug
-	/opt/homebrew/bin/cmake -E touch /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CampusHealth_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target CampusHealth"
+	/opt/homebrew/bin/cmake -E cmake_autogen /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CMakeFiles/CampusHealth_autogen.dir/AutogenInfo.json Debug
+	/opt/homebrew/bin/cmake -E touch /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CampusHealth_autogen/timestamp
 
 CMakeFiles/CampusHealth.dir/codegen:
 .PHONY : CMakeFiles/CampusHealth.dir/codegen
@@ -82,58 +82,58 @@ CMakeFiles/CampusHealth.dir/codegen:
 CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.o: CMakeFiles/CampusHealth.dir/flags.make
 CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.o: CampusHealth_autogen/mocs_compilation.cpp
 CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.o: CMakeFiles/CampusHealth.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.o -MF CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.o -c /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CampusHealth_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.o -MF CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.o -c /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CampusHealth_autogen/mocs_compilation.cpp
 
 CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CampusHealth_autogen/mocs_compilation.cpp > CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CampusHealth_autogen/mocs_compilation.cpp > CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CampusHealth_autogen/mocs_compilation.cpp -o CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CampusHealth_autogen/mocs_compilation.cpp -o CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/CampusHealth.dir/src/main.cpp.o: CMakeFiles/CampusHealth.dir/flags.make
-CMakeFiles/CampusHealth.dir/src/main.cpp.o: /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/main.cpp
+CMakeFiles/CampusHealth.dir/src/main.cpp.o: /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/main.cpp
 CMakeFiles/CampusHealth.dir/src/main.cpp.o: CMakeFiles/CampusHealth.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CampusHealth.dir/src/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CampusHealth.dir/src/main.cpp.o -MF CMakeFiles/CampusHealth.dir/src/main.cpp.o.d -o CMakeFiles/CampusHealth.dir/src/main.cpp.o -c /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CampusHealth.dir/src/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CampusHealth.dir/src/main.cpp.o -MF CMakeFiles/CampusHealth.dir/src/main.cpp.o.d -o CMakeFiles/CampusHealth.dir/src/main.cpp.o -c /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/main.cpp
 
 CMakeFiles/CampusHealth.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CampusHealth.dir/src/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/main.cpp > CMakeFiles/CampusHealth.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/main.cpp > CMakeFiles/CampusHealth.dir/src/main.cpp.i
 
 CMakeFiles/CampusHealth.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CampusHealth.dir/src/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/main.cpp -o CMakeFiles/CampusHealth.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/main.cpp -o CMakeFiles/CampusHealth.dir/src/main.cpp.s
 
 CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o: CMakeFiles/CampusHealth.dir/flags.make
-CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o: /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/mainwindow.cpp
+CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o: /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/mainwindow.cpp
 CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o: CMakeFiles/CampusHealth.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o -MF CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o.d -o CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o -c /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o -MF CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o.d -o CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o -c /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/mainwindow.cpp
 
 CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/mainwindow.cpp > CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/mainwindow.cpp > CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.i
 
 CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/mainwindow.cpp -o CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/mainwindow.cpp -o CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.s
 
 CMakeFiles/CampusHealth.dir/src/interfaces.cpp.o: CMakeFiles/CampusHealth.dir/flags.make
-CMakeFiles/CampusHealth.dir/src/interfaces.cpp.o: /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/interfaces.cpp
+CMakeFiles/CampusHealth.dir/src/interfaces.cpp.o: /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/interfaces.cpp
 CMakeFiles/CampusHealth.dir/src/interfaces.cpp.o: CMakeFiles/CampusHealth.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CampusHealth.dir/src/interfaces.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CampusHealth.dir/src/interfaces.cpp.o -MF CMakeFiles/CampusHealth.dir/src/interfaces.cpp.o.d -o CMakeFiles/CampusHealth.dir/src/interfaces.cpp.o -c /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/interfaces.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CampusHealth.dir/src/interfaces.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CampusHealth.dir/src/interfaces.cpp.o -MF CMakeFiles/CampusHealth.dir/src/interfaces.cpp.o.d -o CMakeFiles/CampusHealth.dir/src/interfaces.cpp.o -c /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/interfaces.cpp
 
 CMakeFiles/CampusHealth.dir/src/interfaces.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CampusHealth.dir/src/interfaces.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/interfaces.cpp > CMakeFiles/CampusHealth.dir/src/interfaces.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/interfaces.cpp > CMakeFiles/CampusHealth.dir/src/interfaces.cpp.i
 
 CMakeFiles/CampusHealth.dir/src/interfaces.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CampusHealth.dir/src/interfaces.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/interfaces.cpp -o CMakeFiles/CampusHealth.dir/src/interfaces.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/interfaces.cpp -o CMakeFiles/CampusHealth.dir/src/interfaces.cpp.s
 
 # Object files for target CampusHealth
 CampusHealth_OBJECTS = \
@@ -154,7 +154,7 @@ CampusHealth: /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Versions/A/QtWidg
 CampusHealth: /Users/wu/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/QtGui
 CampusHealth: /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/QtCore
 CampusHealth: CMakeFiles/CampusHealth.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable CampusHealth"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable CampusHealth"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CampusHealth.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -166,6 +166,6 @@ CMakeFiles/CampusHealth.dir/clean:
 .PHONY : CMakeFiles/CampusHealth.dir/clean
 
 CMakeFiles/CampusHealth.dir/depend: CampusHealth_autogen/timestamp
-	cd /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles/CampusHealth.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CMakeFiles/CampusHealth.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/CampusHealth.dir/depend
 

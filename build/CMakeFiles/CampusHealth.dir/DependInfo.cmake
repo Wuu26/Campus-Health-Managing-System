@@ -9,10 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "CampusHealth_autogen/timestamp" "custom" "CampusHealth_autogen/deps"
-  "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CampusHealth_autogen/mocs_compilation.cpp" "CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.o.d"
-  "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/interfaces.cpp" "CMakeFiles/CampusHealth.dir/src/interfaces.cpp.o" "gcc" "CMakeFiles/CampusHealth.dir/src/interfaces.cpp.o.d"
-  "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/main.cpp" "CMakeFiles/CampusHealth.dir/src/main.cpp.o" "gcc" "CMakeFiles/CampusHealth.dir/src/main.cpp.o.d"
-  "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/mainwindow.cpp" "CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o" "gcc" "CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o.d"
+  "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CampusHealth_autogen/mocs_compilation.cpp" "CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.o.d"
+  "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/interfaces.cpp" "CMakeFiles/CampusHealth.dir/src/interfaces.cpp.o" "gcc" "CMakeFiles/CampusHealth.dir/src/interfaces.cpp.o.d"
+  "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/main.cpp" "CMakeFiles/CampusHealth.dir/src/main.cpp.o" "gcc" "CMakeFiles/CampusHealth.dir/src/main.cpp.o.d"
+  "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/mainwindow.cpp" "CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o" "gcc" "CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system
+CMAKE_SOURCE_DIR = /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build
+CMAKE_BINARY_DIR = /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build
 
 # Utility rule file for CampusHealth_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/CampusHealth_autogen: CampusHealth_autogen/timestamp
 CampusHealth_autogen/timestamp: /Users/wu/Qt/6.9.0/macos/libexec/moc
 CampusHealth_autogen/timestamp: /Users/wu/Qt/6.9.0/macos/libexec/uic
 CampusHealth_autogen/timestamp: CMakeFiles/CampusHealth_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target CampusHealth"
-	/opt/homebrew/bin/cmake -E cmake_autogen /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles/CampusHealth_autogen.dir/AutogenInfo.json Debug
-	/opt/homebrew/bin/cmake -E touch /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CampusHealth_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target CampusHealth"
+	/opt/homebrew/bin/cmake -E cmake_autogen /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CMakeFiles/CampusHealth_autogen.dir/AutogenInfo.json Debug
+	/opt/homebrew/bin/cmake -E touch /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CampusHealth_autogen/timestamp
 
 CMakeFiles/CampusHealth_autogen.dir/codegen:
 .PHONY : CMakeFiles/CampusHealth_autogen.dir/codegen
@@ -92,6 +92,6 @@ CMakeFiles/CampusHealth_autogen.dir/clean:
 .PHONY : CMakeFiles/CampusHealth_autogen.dir/clean
 
 CMakeFiles/CampusHealth_autogen.dir/depend:
-	cd /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles/CampusHealth_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CMakeFiles/CampusHealth_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/CampusHealth_autogen.dir/depend
 

@@ -43,7 +43,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CampusHealth::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CampusHealth-Debug-ce7ca4c968a21cc5be96.json",
+					"jsonFile" : "target-CampusHealth-Debug-6ee8e5c8bbe793e684d1.json",
 					"name" : "CampusHealth",
 					"projectIndex" : 0
 				},
@@ -67,8 +67,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build",
-		"source" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system"
+		"build" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build",
+		"source" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System"
 	},
 	"version" : 
 	{

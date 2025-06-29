@@ -1,0 +1,5 @@
+/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/Campus-Health-Managing-System/src/CMakeFiles/CampusHealth.dir
+/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/Campus-Health-Managing-System/src/CMakeFiles/edit_cache.dir
+/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/Campus-Health-Managing-System/src/CMakeFiles/rebuild_cache.dir
+/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/Campus-Health-Managing-System/src/CMakeFiles/CampusHealth_autogen_timestamp_deps.dir
+/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/Campus-Health-Managing-System/src/CMakeFiles/CampusHealth_autogen.dir

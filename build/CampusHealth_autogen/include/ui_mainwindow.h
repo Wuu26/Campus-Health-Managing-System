@@ -12,14 +12,14 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QComboBox>
-#include <QtWidgets/QFormLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QListWidget>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QTabWidget>
+#include <QtWidgets/QStackedWidget>
 #include <QtWidgets/QTextEdit>
+#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -28,16 +28,18 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QFormLayout *formLayout;
-    QTabWidget *tabWidget;
-    QWidget *welcomeTab1;
+    QVBoxLayout *verticalLayout;
+    QStackedWidget *stackedWidget;
+    QWidget *stackedWidgetPage1;
     QLabel *welcomeLabel;
     QPushButton *generateButton;
     QLineEdit *idInput;
     QLineEdit *nameInput;
     QLabel *nameLabel;
     QLabel *idLabel;
-    QWidget *inputTab2;
+    QLabel *welcomeLabel_2;
+    QLabel *label_2;
+    QWidget *stackedWidgetPage2;
     QLineEdit *ageInput;
     QLineEdit *heightInput;
     QLineEdit *weightInput;
@@ -46,99 +48,113 @@ public:
     QListWidget *freeTimeList;
     QLabel *label;
     QPushButton *submitButton;
-    QWidget *Tab3;
+    QWidget *stackedWidgetPage3;
     QTextEdit *workoutResult;
     QTextEdit *mealResult;
+    QLabel *label_3;
+    QLabel *label_4;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(800, 600);
+        MainWindow->resize(857, 569);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
-        formLayout = new QFormLayout(centralwidget);
-        formLayout->setObjectName("formLayout");
-        tabWidget = new QTabWidget(centralwidget);
-        tabWidget->setObjectName("tabWidget");
-        welcomeTab1 = new QWidget();
-        welcomeTab1->setObjectName("welcomeTab1");
-        welcomeLabel = new QLabel(welcomeTab1);
+        verticalLayout = new QVBoxLayout(centralwidget);
+        verticalLayout->setObjectName("verticalLayout");
+        stackedWidget = new QStackedWidget(centralwidget);
+        stackedWidget->setObjectName("stackedWidget");
+        stackedWidget->setStyleSheet(QString::fromUtf8(""));
+        stackedWidgetPage1 = new QWidget();
+        stackedWidgetPage1->setObjectName("stackedWidgetPage1");
+        welcomeLabel = new QLabel(stackedWidgetPage1);
         welcomeLabel->setObjectName("welcomeLabel");
-        welcomeLabel->setGeometry(QRect(30, 30, 175, 16));
-        generateButton = new QPushButton(welcomeTab1);
+        welcomeLabel->setGeometry(QRect(220, 180, 175, 16));
+        generateButton = new QPushButton(stackedWidgetPage1);
         generateButton->setObjectName("generateButton");
-        generateButton->setGeometry(QRect(70, 420, 105, 32));
-        idInput = new QLineEdit(welcomeTab1);
+        generateButton->setGeometry(QRect(240, 350, 105, 32));
+        generateButton->setStyleSheet(QString::fromUtf8(""));
+        idInput = new QLineEdit(stackedWidgetPage1);
         idInput->setObjectName("idInput");
-        idInput->setGeometry(QRect(100, 290, 125, 21));
-        nameInput = new QLineEdit(welcomeTab1);
+        idInput->setGeometry(QRect(280, 290, 125, 21));
+        nameInput = new QLineEdit(stackedWidgetPage1);
         nameInput->setObjectName("nameInput");
-        nameInput->setGeometry(QRect(100, 210, 125, 21));
-        nameLabel = new QLabel(welcomeTab1);
+        nameInput->setGeometry(QRect(280, 230, 125, 21));
+        nameLabel = new QLabel(stackedWidgetPage1);
         nameLabel->setObjectName("nameLabel");
-        nameLabel->setGeometry(QRect(40, 210, 58, 16));
-        idLabel = new QLabel(welcomeTab1);
+        nameLabel->setGeometry(QRect(200, 230, 58, 16));
+        idLabel = new QLabel(stackedWidgetPage1);
         idLabel->setObjectName("idLabel");
-        idLabel->setGeometry(QRect(40, 290, 58, 16));
-        tabWidget->addTab(welcomeTab1, QString());
-        inputTab2 = new QWidget();
-        inputTab2->setObjectName("inputTab2");
-        ageInput = new QLineEdit(inputTab2);
+        idLabel->setGeometry(QRect(200, 290, 58, 16));
+        welcomeLabel_2 = new QLabel(stackedWidgetPage1);
+        welcomeLabel_2->setObjectName("welcomeLabel_2");
+        welcomeLabel_2->setGeometry(QRect(110, 40, 391, 101));
+        label_2 = new QLabel(stackedWidgetPage1);
+        label_2->setObjectName("label_2");
+        label_2->setGeometry(QRect(490, -60, 221, 231));
+        label_2->setPixmap(QPixmap(QString::fromUtf8("resource/Unknown.jpeg")));
+        stackedWidget->addWidget(stackedWidgetPage1);
+        stackedWidgetPage2 = new QWidget();
+        stackedWidgetPage2->setObjectName("stackedWidgetPage2");
+        ageInput = new QLineEdit(stackedWidgetPage2);
         ageInput->setObjectName("ageInput");
-        ageInput->setGeometry(QRect(40, 20, 113, 21));
-        heightInput = new QLineEdit(inputTab2);
+        ageInput->setGeometry(QRect(350, 20, 113, 21));
+        heightInput = new QLineEdit(stackedWidgetPage2);
         heightInput->setObjectName("heightInput");
-        heightInput->setGeometry(QRect(30, 70, 125, 21));
-        weightInput = new QLineEdit(inputTab2);
+        heightInput->setGeometry(QRect(340, 70, 125, 21));
+        weightInput = new QLineEdit(stackedWidgetPage2);
         weightInput->setObjectName("weightInput");
-        weightInput->setGeometry(QRect(30, 130, 125, 21));
-        goalCombo = new QComboBox(inputTab2);
+        weightInput->setGeometry(QRect(340, 130, 125, 21));
+        goalCombo = new QComboBox(stackedWidgetPage2);
         goalCombo->addItem(QString());
         goalCombo->addItem(QString());
         goalCombo->addItem(QString());
         goalCombo->setObjectName("goalCombo");
-        goalCombo->setGeometry(QRect(40, 200, 103, 32));
+        goalCombo->setGeometry(QRect(350, 200, 103, 32));
         goalCombo->setDuplicatesEnabled(false);
-        dietCombo = new QComboBox(inputTab2);
+        dietCombo = new QComboBox(stackedWidgetPage2);
         dietCombo->addItem(QString());
         dietCombo->addItem(QString());
         dietCombo->setObjectName("dietCombo");
-        dietCombo->setGeometry(QRect(40, 260, 103, 32));
-        freeTimeList = new QListWidget(inputTab2);
+        dietCombo->setGeometry(QRect(350, 260, 103, 32));
+        freeTimeList = new QListWidget(stackedWidgetPage2);
         new QListWidgetItem(freeTimeList);
         new QListWidgetItem(freeTimeList);
         new QListWidgetItem(freeTimeList);
         new QListWidgetItem(freeTimeList);
         new QListWidgetItem(freeTimeList);
         freeTimeList->setObjectName("freeTimeList");
-        freeTimeList->setGeometry(QRect(0, 330, 211, 141));
+        freeTimeList->setGeometry(QRect(310, 330, 211, 141));
         freeTimeList->setSelectionMode(QAbstractItemView::SelectionMode::MultiSelection);
-        label = new QLabel(inputTab2);
+        label = new QLabel(stackedWidgetPage2);
         label->setObjectName("label");
-        label->setGeometry(QRect(47, 310, 111, 20));
-        submitButton = new QPushButton(inputTab2);
+        label->setGeometry(QRect(357, 310, 111, 20));
+        submitButton = new QPushButton(stackedWidgetPage2);
         submitButton->setObjectName("submitButton");
-        submitButton->setGeometry(QRect(60, 490, 101, 32));
-        tabWidget->addTab(inputTab2, QString());
-        Tab3 = new QWidget();
-        Tab3->setObjectName("Tab3");
-        workoutResult = new QTextEdit(Tab3);
+        submitButton->setGeometry(QRect(340, 490, 141, 32));
+        stackedWidget->addWidget(stackedWidgetPage2);
+        stackedWidgetPage3 = new QWidget();
+        stackedWidgetPage3->setObjectName("stackedWidgetPage3");
+        workoutResult = new QTextEdit(stackedWidgetPage3);
         workoutResult->setObjectName("workoutResult");
-        workoutResult->setGeometry(QRect(60, 40, 104, 74));
-        mealResult = new QTextEdit(Tab3);
+        workoutResult->setGeometry(QRect(310, 110, 201, 131));
+        mealResult = new QTextEdit(stackedWidgetPage3);
         mealResult->setObjectName("mealResult");
-        mealResult->setGeometry(QRect(60, 200, 104, 74));
-        tabWidget->addTab(Tab3, QString());
+        mealResult->setGeometry(QRect(310, 310, 201, 131));
+        label_3 = new QLabel(stackedWidgetPage3);
+        label_3->setObjectName("label_3");
+        label_3->setGeometry(QRect(350, 280, 111, 20));
+        label_4 = new QLabel(stackedWidgetPage3);
+        label_4->setObjectName("label_4");
+        label_4->setGeometry(QRect(350, 80, 111, 20));
+        stackedWidget->addWidget(stackedWidgetPage3);
 
-        formLayout->setWidget(0, QFormLayout::ItemRole::SpanningRole, tabWidget);
+        verticalLayout->addWidget(stackedWidget);
 
         MainWindow->setCentralWidget(centralwidget);
 
         retranslateUi(MainWindow);
-
-        tabWidget->setCurrentIndex(0);
-
 
         QMetaObject::connectSlotsByName(MainWindow);
     } // setupUi
@@ -150,7 +166,8 @@ public:
         generateButton->setText(QCoreApplication::translate("MainWindow", "\345\274\200\345\247\213\347\224\237\346\210\220\350\256\241\345\210\222", nullptr));
         nameLabel->setText(QCoreApplication::translate("MainWindow", "\345\247\223\345\220\215\357\274\232", nullptr));
         idLabel->setText(QCoreApplication::translate("MainWindow", "\345\255\246\345\217\267\357\274\232", nullptr));
-        tabWidget->setTabText(tabWidget->indexOf(welcomeTab1), QCoreApplication::translate("MainWindow", "Tab 1", nullptr));
+        welcomeLabel_2->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:36pt; font-weight:700; font-style:italic;\">Weiming Coders</span></p><p align=\"center\"><span style=\" font-size:36pt; font-weight:700; font-style:italic;\">\346\231\272\350\203\275\346\240\241\345\233\255\345\201\245\345\272\267\347\256\241\347\220\206\347\263\273\347\273\237</span></p></body></html>", nullptr));
+        label_2->setText(QString());
         ageInput->setText(QCoreApplication::translate("MainWindow", "\345\271\264\351\276\204", nullptr));
         heightInput->setText(QCoreApplication::translate("MainWindow", "\350\272\253\351\253\230\357\274\210cm\357\274\211", nullptr));
         weightInput->setText(QCoreApplication::translate("MainWindow", "\344\275\223\351\207\215\357\274\210kg\357\274\211", nullptr));
@@ -193,8 +210,8 @@ public:
 #endif // QT_CONFIG(accessibility)
         label->setText(QCoreApplication::translate("MainWindow", "\347\251\272\344\275\231\346\227\266\351\227\264\357\274\210\345\217\257\345\244\232\351\200\211\357\274\211", nullptr));
         submitButton->setText(QCoreApplication::translate("MainWindow", "\347\224\237\346\210\220\344\270\252\346\200\247\345\214\226\345\201\245\345\272\267\350\256\241\345\210\222", nullptr));
-        tabWidget->setTabText(tabWidget->indexOf(inputTab2), QCoreApplication::translate("MainWindow", "Tab 2", nullptr));
-        tabWidget->setTabText(tabWidget->indexOf(Tab3), QCoreApplication::translate("MainWindow", "\351\241\265", nullptr));
+        label_3->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt; font-weight:700;\">\351\245\256\351\243\237\345\273\272\350\256\256</span></p></body></html>", nullptr));
+        label_4->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt; font-weight:700;\">\350\277\220\345\212\250\345\273\272\350\256\256</span></p></body></html>", nullptr));
     } // retranslateUi
 
 };

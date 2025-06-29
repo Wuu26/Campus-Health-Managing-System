@@ -3,11 +3,12 @@
     "dietType": "荤食",
     "freeTimes": [
         "1-2节课",
-        "3-4节课"
+        "3-4节课",
+        "5-6节课"
     ],
     "goal": "健康",
-    "height": 180,
-    "name": "小明",
+    "height": 188,
+    "name": "张三",
     "studentId": "123",
-    "weight": 80
+    "weight": 68
 }

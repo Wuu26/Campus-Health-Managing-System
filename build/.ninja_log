@@ -1,0 +1,13 @@
+# ninja log v6
+3	436	1751097551284292000	CampusHealth_autogen/timestamp	a4bf0d09b62499ec
+437	1382	1751097551298041354	CMakeFiles/CampusHealth.dir/src/main.cpp.o	7276aef8f530623d
+437	1495	1751097551298339896	CMakeFiles/CampusHealth.dir/src/interfaces.cpp.o	5329d24e4d9968cc
+437	1089	1751097551298792856	CMakeFiles/CampusHealth.dir/src/cafeteriamenu.cpp.o	161308a7b88d85a9
+437	1380	1751097551298630564	CMakeFiles/CampusHealth.dir/src/userdietmanager.cpp.o	95bdafd9d64a2c09
+3	436	1751097551284292000	CampusHealth_autogen/mocs_compilation.cpp	a4bf0d09b62499ec
+437	1427	1751097551298478980	CMakeFiles/CampusHealth.dir/src/datamanager.cpp.o	22317fc3ea40098b
+1672	1794	1751097552533271182	CampusHealth	cb5c88a336a0231
+3	436	1751097551284292000	/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System1/build/CampusHealth_autogen/timestamp	a4bf0d09b62499ec
+436	1358	1751097551297821104	CMakeFiles/CampusHealth.dir/CampusHealth_autogen/mocs_compilation.cpp.o	f9d9fb9f5c15d384
+437	1672	1751097551298195021	CMakeFiles/CampusHealth.dir/src/mainwindow.cpp.o	49c54b2ca1eb319e
+3	436	1751097551284292000	/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System1/build/CampusHealth_autogen/mocs_compilation.cpp	a4bf0d09b62499ec

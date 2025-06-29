@@ -1,5 +1,5 @@
-/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CampusHealth_autogen/UVLADIE3JM/moc_mainwindow.cpp: /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/mainwindow.h \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CampusHealth_autogen/moc_predefs.h \
+/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CampusHealth_autogen/UVLADIE3JM/moc_mainwindow.cpp: /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/mainwindow.h \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CampusHealth_autogen/moc_predefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -727,7 +727,7 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stdarg_va_list.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/limits.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdarg.h \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/interfaces.h \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/interfaces.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/QString \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/QStringList \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/q17memory.h \

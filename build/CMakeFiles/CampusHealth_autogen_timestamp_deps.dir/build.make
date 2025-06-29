@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system
+CMAKE_SOURCE_DIR = /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build
+CMAKE_BINARY_DIR = /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build
 
 # Utility rule file for CampusHealth_autogen_timestamp_deps.
 
@@ -81,6 +81,6 @@ CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/depend:
-	cd /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/CampusHealth_autogen_timestamp_deps.dir/depend
 

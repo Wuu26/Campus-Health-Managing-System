@@ -1,5 +1,5 @@
 CMakeFiles/CampusHealth.dir/src/main.cpp.o: \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/main.cpp \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/main.cpp \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qapplication.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -968,7 +968,7 @@ CMakeFiles/CampusHealth.dir/src/main.cpp.o: \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qhash.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qvarlengtharray.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/mainwindow.h \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/mainwindow.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QMainWindow \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qwidget.h \
@@ -985,5 +985,5 @@ CMakeFiles/CampusHealth.dir/src/main.cpp.o: \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QString \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/interfaces.h \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/interfaces.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QStringList

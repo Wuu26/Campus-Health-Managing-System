@@ -728,16 +728,16 @@ CampusHealth_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platf
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stdarg_va_list.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/limits.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdarg.h \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/CMakeLists.txt \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/CMakeLists.txt \
   CMakeFiles/4.0.1/CMakeCXXCompiler.cmake \
   CMakeFiles/4.0.1/CMakeSystem.cmake \
   CampusHealth_autogen/moc_predefs.h \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/interfaces.cpp \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/interfaces.h \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/main.cpp \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/mainwindow.cpp \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/mainwindow.h \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/mainwindow.ui \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/interfaces.cpp \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/interfaces.h \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/main.cpp \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/mainwindow.cpp \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/mainwindow.h \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/mainwindow.ui \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/QString \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/QStringList \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/q17memory.h \
@@ -1310,8 +1310,6 @@ CampusHealth_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platf
 
 /Users/wu/Qt/6.9.0/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateTargets.cmake:
 
-/Users/wu/Qt/6.9.0/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateDependencies.cmake:
-
 /Users/wu/Qt/6.9.0/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfigVersionImpl.cmake:
 
 /Users/wu/Qt/6.9.0/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfigVersion.cmake:
@@ -1363,6 +1361,8 @@ CampusHealth_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platf
 /Users/wu/Qt/6.9.0/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake:
 
 /Users/wu/Qt/6.9.0/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginAdditionalTargetInfo.cmake:
+
+/Users/wu/Qt/6.9.0/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-relwithdebinfo.cmake:
 
 /Users/wu/Qt/6.9.0/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake:
 
@@ -1491,6 +1491,8 @@ CampusHealth_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platf
 /Users/wu/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h:
 
 /Users/wu/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h:
+
+/Users/wu/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h:
 
 /Users/wu/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h:
 
@@ -1630,10 +1632,6 @@ CampusHealth_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platf
 
 /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__std_mbstate_t.h:
-
-/Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h:
-
 /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/datasizeof.h:
@@ -1684,19 +1682,25 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/QString:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
 
-/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/mainwindow.h:
+/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/mainwindow.ui:
 
-/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/main.cpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__std_mbstate_t.h:
 
-/Users/wu/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h:
+/Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h:
 
-/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/interfaces.cpp:
+/opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_signed.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
 
-/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/CMakeLists.txt:
+/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/mainwindow.h:
+
+/Users/wu/Qt/6.9.0/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateDependencies.cmake:
+
+/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/main.cpp:
+
+/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/interfaces.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/auto_cast.h:
 
@@ -2040,10 +2044,6 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/void_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_arg.h:
-
-/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/mainwindow.cpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/underlying_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/utility:
@@ -2085,6 +2085,8 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/promote.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/negation.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_signed.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_pointer.h:
 
@@ -2476,8 +2478,6 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/exponential_functions.h:
 
-/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/interfaces.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_string.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__node_handle:
@@ -2501,10 +2501,6 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_time.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/copyable.h:
-
-/opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert:
 
@@ -2710,6 +2706,8 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_valid.h:
 
+/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/interfaces.h:
+
 /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/ptrdiff_t.h:
@@ -2719,6 +2717,8 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_error.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binder1st.h:
+
+/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/CMakeLists.txt:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h:
 
@@ -2968,6 +2968,8 @@ CMakeFiles/4.0.1/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/common_reference_with.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_arg.h:
+
 /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/kill_dependency.h:
@@ -3100,6 +3102,8 @@ CMakeFiles/4.0.1/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/search_n.h:
 
+/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/mainwindow.cpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/addressof.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/memory_resource.h:
@@ -3221,8 +3225,6 @@ CMakeFiles/4.0.1/CMakeSystem.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator_traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_constructible.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:
 
@@ -3352,10 +3354,6 @@ CMakeFiles/4.0.1/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_traits.h:
 
-/Users/wu/Qt/6.9.0/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-relwithdebinfo.cmake:
-
-/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/mainwindow.ui:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_bounds.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/aliasing_iterator.h:
@@ -3407,6 +3405,8 @@ CMakeFiles/4.0.1/CMakeSystem.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/any_of.h:
 
 CampusHealth_autogen/moc_predefs.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pop_heap.h:
 

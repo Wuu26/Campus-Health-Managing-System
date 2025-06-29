@@ -1,6 +1,6 @@
 CMakeFiles/CampusHealth.dir/src/interfaces.cpp.o: \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/interfaces.cpp \
-  /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/interfaces.h \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/interfaces.cpp \
+  /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/interfaces.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QString \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qstring.h \
   /Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qchar.h \

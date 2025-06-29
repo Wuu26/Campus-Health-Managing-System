@@ -1,4 +1,4 @@
-# Install script for directory: /Users/wu/Documents/VScode/QtProjects/campus-health-managing-system
+# Install script for directory: /Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,7 +40,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/install_local_manifest.txt"
+  file(WRITE "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -56,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

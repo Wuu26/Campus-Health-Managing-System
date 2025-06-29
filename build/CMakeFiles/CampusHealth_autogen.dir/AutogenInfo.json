@@ -1,16 +1,16 @@
 {
-	"BUILD_DIR" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CampusHealth_autogen",
-	"CMAKE_BINARY_DIR" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system",
+	"BUILD_DIR" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CampusHealth_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System",
 	"CMAKE_EXECUTABLE" : "/opt/homebrew/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/CMakeLists.txt",
-		"/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles/4.0.1/CMakeSystem.cmake",
+		"/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/CMakeLists.txt",
+		"/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CMakeFiles/4.0.1/CMakeSystem.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/opt/homebrew/share/cmake/Modules/Platform/Darwin-Initialize.cmake",
-		"/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles/4.0.1/CMakeCXXCompiler.cmake",
+		"/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CMakeFiles/4.0.1/CMakeCXXCompiler.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -337,28 +337,28 @@
 		"/Users/wu/Qt/6.9.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake",
 		"/Users/wu/Qt/6.9.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system",
+	"CMAKE_SOURCE_DIR" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CampusHealth_autogen/deps",
+	"DEP_FILE" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CampusHealth_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "CampusHealth_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/interfaces.h",
+			"/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/interfaces.h",
 			"MU",
 			"UVLADIE3JM/moc_interfaces.cpp",
 			null
 		],
 		[
-			"/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/mainwindow.h",
+			"/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/mainwindow.h",
 			"MU",
 			"UVLADIE3JM/moc_mainwindow.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CampusHealth_autogen/include",
-	"MOC_COMPILATION_FILE" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CampusHealth_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CampusHealth_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CampusHealth_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -369,7 +369,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src",
+		"/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src",
 		"/Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers",
 		"/Users/wu/Qt/6.9.0/macos/lib/QtWidgets.framework",
 		"/Users/wu/Qt/6.9.0/macos/lib/QtCore.framework/Headers",
@@ -403,31 +403,31 @@
 		"-c",
 		"/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CampusHealth_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CampusHealth_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 14,
-	"PARSE_CACHE_FILE" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles/CampusHealth_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CMakeFiles/CampusHealth_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/Users/wu/Qt/6.9.0/macos/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/Users/wu/Qt/6.9.0/macos/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 9,
-	"SETTINGS_FILE" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles/CampusHealth_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CMakeFiles/CampusHealth_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/interfaces.cpp",
+			"/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/interfaces.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/main.cpp",
+			"/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/main.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/src/mainwindow.cpp",
+			"/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/src/mainwindow.cpp",
 			"MU",
 			null
 		]

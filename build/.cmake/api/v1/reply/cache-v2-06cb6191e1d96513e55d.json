@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build"
+			"value" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -378,6 +378,10 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "No help, variable specified on the command line."
 				}
@@ -407,7 +411,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build/CMakeFiles/pkgRedirects"
+			"value" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -479,7 +483,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system"
+			"value" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1351,7 +1355,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system/build"
+			"value" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System/build"
 		},
 		{
 			"name" : "CampusHealth_IS_TOP_LEVEL",
@@ -1375,7 +1379,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/wu/Documents/VScode/QtProjects/campus-health-managing-system"
+			"value" : "/Users/wu/Documents/VScode/QtProjects/Campus-Health-Managing-System"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenGL",
@@ -6372,18 +6376,6 @@
 			],
 			"type" : "PATH",
 			"value" : "/Users/wu/Qt/6.9.0/macos/lib/cmake/Qt6Widgets"
-		},
-		{
-			"name" : "Qt6_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for Qt6."
-				}
-			],
-			"type" : "PATH",
-			"value" : "/Users/wu/Qt/6.9.0/macos/lib/cmake/Qt6"
 		},
 		{
 			"name" : "WrapOpenGL_AGL",
