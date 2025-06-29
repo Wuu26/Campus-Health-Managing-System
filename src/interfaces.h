@@ -18,6 +18,7 @@ struct UserProfile {
         if (height <= 0) return 0;
         float hMeters = height / 100.0f;
         return weight / (hMeters * hMeters);
+    }
     // 新增：计算运动时间
     int calculateExerciseTime() const {
         return freeTimes.size() * 60; 
