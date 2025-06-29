@@ -8,34 +8,85 @@
 
 QStringList generateWorkoutPlan(const UserProfile &user) {
     float bmi = user.calculateBMI();
+    int exerciseTime = user.calculateExerciseTime();
     QStringList plans;
 
     if (bmi < 18.5) {
-        plans << "建议进行力量训练（如哑铃、俯卧撑）"
-               << "每天摄入高蛋白食物（如鸡蛋、豆腐）";
+        if (exerciseTime < 120) {
+            plans << "建议进行20分钟力量训练（如哑铃、俯卧撑）"
+                  << "每天摄入高蛋白食物（如鸡蛋、豆腐）";
+        } else if (exerciseTime < 240) {
+            plans << "建议进行30分钟力量训练（如哑铃、俯卧撑）和10分钟有氧运动"
+                  << "每天摄入高蛋白食物（如鸡蛋、豆腐）";
+        } else {
+            plans << "建议进行40分钟力量训练（如哑铃、俯卧撑）和20分钟有氧运动"
+                  << "每天摄入高蛋白食物（如鸡蛋、豆腐）";
+        }
     } else if (bmi < 24) {
-        plans << "建议快走、骑行等中等强度有氧运动"
-               << "保持良好的作息和营养均衡";
+        if (exerciseTime < 120) {
+            plans << "建议快走20分钟"
+                  << "保持良好的作息和营养均衡";
+        } else if (exerciseTime < 240) {
+            plans << "建议快走30分钟和骑行10分钟"
+                  << "保持良好的作息和营养均衡";
+        } else {
+            plans << "建议快走40分钟和骑行20分钟"
+                  << "保持良好的作息和营养均衡";
+        }
     } else if (bmi < 28) {
-        plans << "建议慢跑、有氧操，控制饮食"
-               << "减少高热量、高糖分食物摄入";
+        if (exerciseTime < 120) {
+            plans << "建议慢跑20分钟，控制饮食"
+                  << "减少高热量、高糖分食物摄入";
+        } else if (exerciseTime < 240) {
+            plans << "建议慢跑30分钟和有氧操10分钟，控制饮食"
+                  << "减少高热量、高糖分食物摄入";
+        } else {
+            plans << "建议慢跑40分钟和有氧操20分钟，控制饮食"
+                  << "减少高热量、高糖分食物摄入";
+        }
     } else {
-        plans << "建议快走 30 分钟/天"
-               << "避免高脂食物，多饮水";
+        if (exerciseTime < 120) {
+            plans << "建议快走20分钟/天"
+                  << "避免高脂食物，多饮水";
+        } else if (exerciseTime < 240) {
+            plans << "建议快走30分钟/天和简单拉伸10分钟"
+                  << "避免高脂食物，多饮水";
+        } else {
+            plans << "建议快走40分钟/天和简单拉伸20分钟"
+                  << "避免高脂食物，多饮水";
+        }
     }
 
     return plans;
 }
 
 QStringList generateMealPlan(const UserProfile &user) {
+    float bmi = user.calculateBMI();
+    int exerciseTime = user.calculateExerciseTime();
     QStringList meals;
 
     if (user.dietType == "素食") {
-        meals << "豆腐炒青菜 + 粗粮饭"
-               << "水果沙拉 + 杂粮粥";
+        if (exerciseTime < 120) {
+            meals << "豆腐炒青菜 + 粗粮饭"
+                  << "水果沙拉 + 杂粮粥";
+        } else if (exerciseTime < 240) {
+            meals << "豆腐炒青菜 + 粗粮饭，增加坚果摄入"
+                  << "水果沙拉 + 杂粮粥，增加豆类摄入";
+        } else {
+            meals << "豆腐炒青菜 + 粗粮饭，增加坚果和豆类摄入"
+                  << "水果沙拉 + 杂粮粥，增加蛋白质粉摄入";
+        }
     } else {
-        meals << "鸡胸肉 + 西兰花 + 藜麦"
-               << "牛肉炖土豆 + 青菜";
+        if (exerciseTime < 120) {
+            meals << "鸡胸肉 + 西兰花 + 藜麦"
+                  << "牛肉炖土豆 + 青菜";
+        } else if (exerciseTime < 240) {
+            meals << "鸡胸肉 + 西兰花 + 藜麦，增加鱼类摄入"
+                  << "牛肉炖土豆 + 青菜，增加蛋类摄入";
+        } else {
+            meals << "鸡胸肉 + 西兰花 + 藜麦，增加鱼类和蛋类摄入"
+                  << "牛肉炖土豆 + 青菜，增加蛋白质粉摄入";
+        }
     }
 
     return meals;
