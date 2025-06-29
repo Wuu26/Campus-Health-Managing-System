@@ -1,12 +1,13 @@
 #include "interfaces.h"
+#include <QCoreApplication>
+#include <QDir>
 #include <QFile>
+#include <QJsonArray>
 #include <QJsonDocument>
 #include <QJsonObject>
-#include <QJsonArray>
-#include <QDir>
-#include <QCoreApplication>
 
-QStringList generateWorkoutPlan(const UserProfile &user) {
+QStringList generateWorkoutPlan(const UserProfile &user)
+{
     float bmi = user.calculateBMI();
     int exerciseTime = user.calculateExerciseTime();
     QStringList plans;
@@ -60,7 +61,8 @@ QStringList generateWorkoutPlan(const UserProfile &user) {
     return plans;
 }
 
-QStringList generateMealPlan(const UserProfile &user) {
+QStringList generateMealPlan(const UserProfile &user)
+{
     float bmi = user.calculateBMI();
     int exerciseTime = user.calculateExerciseTime();
     QStringList meals;
@@ -92,8 +94,10 @@ QStringList generateMealPlan(const UserProfile &user) {
     return meals;
 }
 
-bool saveUserProfileToJson(const UserProfile &user, const QString &directory) {
-    QString fullPath = QDir::cleanPath(QCoreApplication::applicationDirPath() + "/" + directory + "/" + user.studentId + ".json");
+bool saveUserProfileToJson(const UserProfile &user, const QString &directory)
+{
+    QString fullPath = QDir::cleanPath(QCoreApplication::applicationDirPath() + "/" + directory
+                                       + "/" + user.studentId + ".json");
     QDir().mkpath(QFileInfo(fullPath).absolutePath());
 
     QFile file(fullPath);
@@ -122,15 +126,19 @@ bool saveUserProfileToJson(const UserProfile &user, const QString &directory) {
     return true;
 }
 
-bool loadUserProfileFromJson(UserProfile &user, const QString &directory) {
+bool loadUserProfileFromJson(UserProfile &user, const QString &directory)
+{
     QFile file(directory + "/" + user.studentId + ".json");
-    if (!file.exists()) return false;
-    if (!file.open(QIODevice::ReadOnly)) return false;
+    if (!file.exists())
+        return false;
+    if (!file.open(QIODevice::ReadOnly))
+        return false;
 
     QJsonDocument doc = QJsonDocument::fromJson(file.readAll());
     file.close();
 
-    if (!doc.isObject()) return false;
+    if (!doc.isObject())
+        return false;
     QJsonObject obj = doc.object();
 
     user.name = obj["name"].toString();

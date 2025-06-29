@@ -1,12 +1,13 @@
 #include "mainwindow.h"
-#include "ui_mainwindow.h"
-#include "interfaces.h"
+#include <QDebug> // 可选，用于调试
 #include <QMessageBox>
-#include <QDebug>              // 可选，用于调试
+#include "interfaces.h"
+#include "ui_mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::MainWindow) {
+    , ui(new Ui::MainWindow)
+{
     ui->setupUi(this);
 
     // 默认显示欢迎页（第一页）
@@ -17,11 +18,13 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->submitButton, &QPushButton::clicked, this, &MainWindow::on_submitButton_clicked);
 }
 
-MainWindow::~MainWindow() {
+MainWindow::~MainWindow()
+{
     delete ui;
 }
 
-void MainWindow::on_generateButton_clicked() {
+void MainWindow::on_generateButton_clicked()
+{
     QString name = ui->nameInput->text();
     QString id = ui->idInput->text();
 
@@ -52,7 +55,8 @@ void MainWindow::on_generateButton_clicked() {
     ui->stackedWidget->setCurrentIndex(1); // 跳转到信息填写页
 }
 
-void MainWindow::on_submitButton_clicked() {
+void MainWindow::on_submitButton_clicked()
+{
     currentUser.age = ui->ageInput->text().toInt();
     currentUser.height = ui->heightInput->text().toFloat();
     currentUser.weight = ui->weightInput->text().toFloat();

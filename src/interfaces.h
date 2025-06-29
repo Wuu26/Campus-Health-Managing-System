@@ -4,7 +4,8 @@
 #include <QString>
 #include <QStringList>
 
-struct UserProfile {
+struct UserProfile
+{
     QString name;
     QString studentId;
     int age;
@@ -14,15 +15,15 @@ struct UserProfile {
     QStringList freeTimes;
     QString dietType;
 
-    float calculateBMI() const {
-        if (height <= 0) return 0;
+    float calculateBMI() const
+    {
+        if (height <= 0)
+            return 0;
         float hMeters = height / 100.0f;
         return weight / (hMeters * hMeters);
     }
     // 新增：计算运动时间
-    int calculateExerciseTime() const {
-        return freeTimes.size() * 60; 
-    }
+    int calculateExerciseTime() const { return freeTimes.size() * 60; }
 };
 
 QStringList generateWorkoutPlan(const UserProfile &user);
