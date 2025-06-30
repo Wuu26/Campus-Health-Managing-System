@@ -2,7 +2,7 @@
 组号：28
 组名：Weiming Coders
 程序名称：智能校园健康管理系统
-视频演示链接：https://disk.pku.edu.cn/link/AA004236EA689349F9919E0F30BDCA7A79
+视频演示链接：https://disk.pku.edu.cn/link/AAF3AE504C9A7D4C3DB14D011B80CA1245
 文件名：28-演示.mp4
 有效期限：永久有效
 
