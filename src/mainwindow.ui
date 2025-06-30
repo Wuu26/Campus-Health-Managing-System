@@ -14,12 +14,9 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
      <widget class="QStackedWidget" name="stackedWidget">
-      <property name="styleSheet">
-       <string notr="true"/>
-      </property>
       <widget class="QWidget" name="stackedWidgetPage1">
        <widget class="QLabel" name="welcomeLabel">
         <property name="geometry">
@@ -99,24 +96,30 @@
        <widget class="QLabel" name="welcomeLabel_2">
         <property name="geometry">
          <rect>
-          <x>110</x>
-          <y>40</y>
-          <width>391</width>
-          <height>101</height>
+          <x>10</x>
+          <y>20</y>
+          <width>501</width>
+          <height>151</height>
          </rect>
         </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt; font-weight:700; font-style:italic;&quot;&gt;Weiming Coders&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt; font-weight:700; font-style:italic;&quot;&gt;智能校园健康管理系统&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:28pt; font-weight:700; font-style:italic;&quot;&gt;Weiming Coders&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:28pt; font-weight:700; font-style:italic;&quot;&gt;智能校园健康管理系统&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_2">
         <property name="geometry">
          <rect>
-          <x>490</x>
-          <y>-60</y>
-          <width>221</width>
-          <height>231</height>
+          <x>550</x>
+          <y>20</y>
+          <width>231</width>
+          <height>361</height>
          </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
         </property>
         <property name="text">
          <string/>
@@ -325,9 +328,9 @@
         <property name="geometry">
          <rect>
           <x>350</x>
-          <y>280</y>
+          <y>259</y>
           <width>111</width>
-          <height>20</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
@@ -338,9 +341,9 @@
         <property name="geometry">
          <rect>
           <x>350</x>
-          <y>80</y>
+          <y>59</y>
           <width>111</width>
-          <height>20</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
