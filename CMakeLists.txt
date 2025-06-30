@@ -16,7 +16,6 @@ add_executable(CampusHealth
     src/mainwindow.cpp
     src/interfaces.cpp       # ✅ 包含逻辑函数实现
     src/mainwindow.ui
-    resource.qrc
 )
 
 target_link_libraries(CampusHealth PRIVATE Qt6::Widgets)
