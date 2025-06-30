@@ -20,5 +20,5 @@ add_executable(CampusHealth
 
 target_link_libraries(CampusHealth PRIVATE Qt6::Widgets)
 
-# IDE 提示友好
+# IDE 提示友好哦
 target_include_directories(CampusHealth PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
