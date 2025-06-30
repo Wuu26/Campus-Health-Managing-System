@@ -14,6 +14,7 @@ struct UserProfile
     QString goal;
     QStringList freeTimes;
     QString dietType;
+    //QString gender;  // 新增：性别字段
 
     float calculateBMI() const
     {
